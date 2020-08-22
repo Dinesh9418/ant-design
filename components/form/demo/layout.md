@@ -48,7 +48,7 @@ const FormLayoutDemo = () => {
         form={form}
         initialValues={{ layout: formLayout }}
         onValuesChange={onFormLayoutChange}
-      >
+      >Ok
         <Form.Item label="Form Layout" name="layout">
           <Radio.Group value={formLayout}>
             <Radio.Button value="horizontal">Horizontal</Radio.Button>
